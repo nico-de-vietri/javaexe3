@@ -1,0 +1,12 @@
+//Primera parte
+
+public class Main {
+    
+    public static void main(String[] args) { // inside main programm call sum3 with some values.
+    sum3(11,22,33);
+    }
+    
+    public static void sum3(int a, int b, int c){ // func sum3 creation.
+    System.out.println(a+b+c);
+    }  
+}
