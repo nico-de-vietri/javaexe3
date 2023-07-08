@@ -1,0 +1,23 @@
+//Segunda parte
+
+
+public class Main {
+    
+    public static void main(String[] args) { 
+    // creacion de objeto miCoche
+    Coche miCoche = new Coche();
+    // añadir una puerta a mi coche y mostar cuantas puertas tiene ahora
+    miCoche.incrdoors();
+    System.out.println(miCoche.doornum);
+    }
+}
+// creacion classe 
+class Coche{        
+    // creacion de variable, atributo cuantas puertas tiene el coche
+    public int doornum=2;
+    
+    // una funcion que incrementa el numero de puertas que tiene el coche en 1 cada vez q se llame a la funcion
+    public void incrdoors(){
+        this.doornum ++;
+    }
+}
